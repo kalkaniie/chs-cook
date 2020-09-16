@@ -101,8 +101,8 @@ phases:
                     livenessProbe:
                       exec:
                         command:
-                        - cat:
-                        - /mnt/aws/logs/cook-application.log:                    
+                        - cat
+                        - /mnt/aws/logs/cook-application.log                  
                       initialDelaySeconds: 20
                       periodSeconds: 30
                 volumes:
