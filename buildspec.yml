@@ -78,7 +78,7 @@ phases:
             template:
               metadata:
                 labels:
-                  app: $_PROJECT_NAME
+                  app: $IMAGE_REPO_NAME
               spec:
                 containers:
                   - name: $IMAGE_REPO_NAME
